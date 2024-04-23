@@ -1,5 +1,7 @@
 package com.webclient.biodata.models;
 
+import com.webclient.biodata.models.kerja.Pekerjaan;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,4 +19,5 @@ public class BioResp {
     Integer bioId;
     String nama;
     AlamatResp alamat;
+    Pekerjaan kerja;
 }
